@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sproducts page</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="mproductspage.css">
+
+    <style>
+        .small-img-group{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .small-img-col{
+            flex-basis: 25%;
+            cursor: pointer;
+        }
+        .sproduct select{
+            display: block;
+            padding: 5px 10px;
+
+        }
+        .sproduct input{
+            width: 50px;
+            height: 40px;
+            padding-left: 10px;
+            font-size:16px;
+            margin-right: 10px;
+        }
+        .sproduct input:focus{
+            outline:none;
+        }
+    </style>
+</head>
+<body>
+       <!--NAVIGATION-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top">
+    <div class="container">
+      <img src="./the images/cloth-removebg-preview.png"width=5% alt=""><h2>D-XTRA</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+         
+          <li class="nav-item">
+            <a class="nav-link" href="manage.html"><b>HOME</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="men.html"><b>MEN</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="women.html"><b>WOMEN</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>BRANDS</b></a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>SALES</b></a>
+          </li>
+          <li class="nav-item">
+            <i class="bi bi-search"></i>
+          </li>
+          <li class="nav-item">
+            <i class="bi bi-bag-heart"></i>
+            <i class="bi bi-bag-check"></i>
+          </li>
+          
+      </div>
+    </div>
+  </nav>
+
+  <section class="container sproduct my-5 pt-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="./the images/male clothes/IMG-20220725-WA0092.jpg" id="MainImg" alt="">
+        
+    
+        </div>
+        <div class="col-lg-5 col-md-12 col-12">
+            <h6>T-Shirt</h6>
+            <h3 class="py-4">Male Vintage T-Shirt</h3>
+            <h2>₦2,500</h2>
+            <select class="my-3">
+                <option>Select Size</option>
+                <option>small</option>
+                <option>large</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <input type="number" value="1">
+            <button class="buy-btn">Add To Cart</button>
+            <h4 class="mt-4 mb-3">Product Details</h4>
+            <span>Men Fashion T-Shirt Easy To Wear And Comfortable</span>
+        </div>
+    </div>
+  </section>
+
+  <section id="featured" class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3>Related Products</h3>
+        <hr>
+        <p>You May Also Like</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+       
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="./the images/male clothes/IMG-20220725-WA0092.jpg" width="70%" alt="">
+        <div class="star">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+        </div>
+        <h5 class="p-name">VINTAGE SHIRT</h5>
+        <h4 class="p-price"><b>₦2,500</b></h4>
+        <a href="mp15.html"><button class="buy-btn">Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img  class="img-fluid mb-3" src="./the images/male clothes/IMG-20220725-WA0093.jpg" width="70%" alt="">
+        <div class="star">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+        </div>
+        <h5 class="p-name">MALE VINTAGE SHIRT</h5>
+        <h4 class="p-price"><b>₦2,500</b></h4>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+     <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="./the images/male clothes/IMG-20220725-WA0094.jpg" alt="">
+        <div class="star">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+        </div>
+        <h5 class="p-name">MALE FASHION T-SHIRT</h5>
+        <h4 class="p-price"><b>₦3,500</b></h4>
+        <a href="mproductspage.html"><button class="buy-btn">Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="./the images/male clothes/IMG-20220725-WA0095.jpg" alt="">
+        <div class="star">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+        </div>
+        <h5 class="p-name">MALE FASHION T-SHIRT</h5>
+        <h4 class="p-price"><b>₦3,500</b></h4>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+    </div>
+  </section>
+
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="./the images/cloth-removebg-preview.png"width=30% alt="" >
+            <p class="benefits">We offer amazing opportunities at no extra cost:<br>10% Discount on Birthdays<br>Refer Us to Friends and Get A Free Product At the end of the month <Br> The Most Active Customers Are Rewarded At The End Of Each Month <br> Get Free Fashion Tips On what to Wear, And Clothes That match Your skin tone and Body Type </p>
+          </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Featured</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">KIDS</a></li>
+            <li><a href="#">NEW ARRIVALS</a></li>
+            <li><a href="#">SHOES</a></li>
+            <li><a href="#">CLOTHES</a></li>
+          </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Contact Us</h5>
+          <div>
+            <h6 class="text-uppercase">Address</h6>
+            <p>13,Nile Street, Abuja, Nigeria</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Phone</h6>
+            <p>(+234)904 236 1579</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Email</h6>
+            <p>dxtramall@gmail.com</p>
+          </div>
+        </div>
+      
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2">Instagram</h5>
+         <div class="row">
+          <img  class="img-fluid w-25 h-100 m-2"src="the images/fashion.jpg" alt="">
+          <img  class="img-fluid w-25 h-100 m-2"src="the images/pexels-media-7240063-1658815258795.jpeg" alt="">
+          <img  class="img-fluid w-25 h-100 m-2"src="the images/swapnil-um_BCDd8rgA-unsplash.jpg" alt="">
+          <img  class="img-fluid w-25 h-100 m-2"src="the images/warren-jones-LFlVuWLjYEo-unsplash.jpg" alt="">
+          <img  class="img-fluid w-25 h-100 m-2"src="the images/shahab-vejdanian-EW6iwfG1uZU-unsplash.jpg" alt="">
+         </div>
+        </div>
+        </div>
+        
+      
+        <div class="copyright mt-5">
+          <div class="row container mx-auto">
+      
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+            <img src="the images/kindpng_3995736.png" width="50%" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-nowrap mb-2">
+              <p>D-Xtra eCommerce Ⓒ 2022. All Rights Reserved</p>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 col-12">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+crossorigin="anonymous"></script>
+
+<script>
+    var MainImg = document.getElementById('MainImg');
+    var smallimg = document.getElementsByClassName('small-img');
+
+    smallimg[0].oneclick = function(){
+        MainImg.src = smallimg[0].src;
+    }
+
+    smallimg[1].oneclick = function(){
+        MainImg.src = smallimg[1].src;
+    }
+
+    smallimg[2].oneclick = function(){
+        MainImg.src = smallimg[2].src;
+    }
+
+    smallimg[3].oneclick = function(){
+        MainImg.src = smallimg[3].src;
+    }
+
+</script>
+</body>
+</html>
